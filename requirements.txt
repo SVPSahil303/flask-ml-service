@@ -4,5 +4,5 @@ numpy
 opencv-python-headless
 pillow
 joblib
+scikit-learn
 gunicorn
-
