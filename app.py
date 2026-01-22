@@ -25,7 +25,6 @@ def predict():
         image = Image.open(io.BytesIO(image_bytes)).convert('L')  # Convert to grayscale
 
         # Optional: Save image for debugging
-        image.save("static/debug_input.png")
 
         # Resize
         image = image.resize((28, 28), Image.Resampling.LANCZOS)
